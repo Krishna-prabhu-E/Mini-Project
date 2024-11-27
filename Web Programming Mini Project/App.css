@@ -1,0 +1,34 @@
+/* App Container Styling */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+  background-color: #0b69e4;
+  color: white;
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+/* Content Styling */
+main {
+  flex: 1;
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 0.9rem;
+}
